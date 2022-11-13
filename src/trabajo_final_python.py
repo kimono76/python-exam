@@ -5,10 +5,10 @@ import csv
 ### All the constants are here
 ### By using this, we avoid the usage of "magic strings" througout the code
 ### the source and the new file will be in the same folder (./) as the python file 
-original_file ='./files/recursosPython.csv'
+original_file ='./recursosPython.csv'
 file_character_encoding = 'utf-8-sig'
 
-file_by_state ='./files/recursosPythonFiltradoPorProvincia.csv'
+file_by_state ='./recursosPythonFiltradoPorProvincia.csv'
 file_setup_for_write_mode ='w'
 file_setup_for_new_line =''
 
