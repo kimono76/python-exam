@@ -135,7 +135,7 @@ def filter_by_multiple_search_criteria(
                 
 ### This function prints de data for the filtered people
 def print_filtered_information():
-    print('Estas son los datos de las personas cuyo apellido es','Gomez')
+    print('Estos son los datos de las personas cuyo apellido es','Gomez')
     total = len(information_filtered_by_name)
     count =1
     for person_filtered_data in information_filtered_by_name:
